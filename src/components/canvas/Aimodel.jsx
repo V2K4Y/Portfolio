@@ -41,8 +41,8 @@ const Aimodel = ({ isMobile }) => {
       />
       <primitive
         object={aimodel.scene}
-        scale={isMobile ? 2.0: 1.5}
-        position={isMobile? [-6, -4, -2.2]: [5, -2.75, -1.5]}
+        scale={isMobile ? 1.7: 1.0}
+        position={isMobile? [-6, -4, -2.2]: [8, -2.15, -1.5]}
         rotation={[0.1, 0.7, -0.1]}
       />
       
