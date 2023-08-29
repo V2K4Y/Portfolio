@@ -17,7 +17,7 @@ const Tech = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        HTML, CSS, JS, building small and medium web applications with React, Node and Express, custom plugins, features, animations, and coding interactive layouts. I have also full-stack developer experience
+        HTML, CSS, JS building small and medium web applications with React, Node, Express and ThreeJS, custom plugins, features animations and coding interactive layouts. I have also full-stack developer experience
       </motion.p>
 
       <div className="flex flex-row flex-wrap justify-center pt-[60px] gap-10">

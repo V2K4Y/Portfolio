@@ -6,7 +6,7 @@ import { AimodelCanvas } from './canvas'
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto backdrop-blur-lg">
+    <section className="relative w-full h-screen mx-auto backdrop-blur-md">
       <div className= {`${styles.paddingX} absolute inset-0 top-[120px]
         max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
@@ -17,8 +17,8 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText}
           text-white`}>Hi, I'm <span className='text-[#915eff]'>Vivek</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop smart user interfaces and useful   
-            <br/>interactions, developing rich web applications.
+          I develop smart user interfaces and useful   
+            <br/>interactions, developing rich web <br className='hidden sm:block'/>applications and seamless web experiences.
           </p>
         </div>
       </div>
