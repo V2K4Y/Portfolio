@@ -17,13 +17,16 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/ThreeJS.png";
+import express from "./tech/ExpressJS.png";
 
 import vidyamantra from "./company/vidyamantra.png"
 
 import carrent from "./ecommerce.png";
 import jobit from "./Live-chat.png";
 import tripguide from "./Final.png";
+import URLS from "./URL2.jpg";
+import portfolio from "./portfolio.jpg";
 
 import linkedin from './linkedin.svg';
 import email from './email.svg';
@@ -52,8 +55,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  URLS,
+  portfolio,
   vidyamantra,
   linkedin,
   email,
-  githubl
+  githubl,
+  express
 };

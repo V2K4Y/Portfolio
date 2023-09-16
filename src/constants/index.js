@@ -5,7 +5,8 @@ import {
     tailwind,   nodejs,      mongodb,    
     git,        docker,      carrent,
     jobit,      tripguide,  threejs,
-    vidyamantra,
+    vidyamantra,express,    URLS,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -72,6 +73,10 @@ import {
       icon: nodejs,
     },
     {
+      name: "ExpressJS",
+      icon: express,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
@@ -80,11 +85,11 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "docker",
+      name: "Docker",
       icon: docker,
     },
   ];
@@ -134,27 +139,6 @@ import {
   
   const projects = [
     {
-      name: "E-commerce Website",
-      description:
-        "Web-based platform that allows users to see products and buy it by adding it to cart and move to payment section.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/V2K4Y/E-commerce-WebSite",
-    },
-    {
       name: "Live-chat App",
       description:
         "Web application that enables users to chat with other users in realtime environment.",
@@ -174,6 +158,69 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/V2K4Y/LiveChat---App",
+    },
+    {
+      name: "URL Shortener",
+      description:
+        "It shorten the long URl by giving you shortID through which you can visit to your original site. Every user will have their own record.",
+      tags: [
+        {
+          name: "NodesJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: URLS,
+      source_code_link: "https://github.com/V2K4Y/URL_Shortener",
+    },
+    {
+      name: "Personal Portfolio",
+      description:
+        "Dynamic portfolio website incorporating interactive 3D models using Three.js for enhanced visual engagement.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ThreeJS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/V2K4Y/Portfolio",
+    },
+    {
+      name: "E-commerce Website",
+      description:
+        "Web-based platform that allows users to see products and buy it by adding it to cart and move to payment section.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/V2K4Y/E-commerce-WebSite",
     },
     {
       name: "Data Analysis - (EDA)",
