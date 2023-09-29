@@ -6,7 +6,7 @@ import {
     git,        docker,      carrent,
     jobit,      tripguide,  threejs,
     vidyamantra,express,    URLS,
-    portfolio
+    portfolio,  weather
   } from "../assets";
   
   export const navLinks = [
@@ -221,6 +221,27 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/V2K4Y/E-commerce-WebSite",
+    },
+    {
+      name: "WeatherAPI",
+      description:
+        "A weather web-page design, fetching weather data from third party (openweathermap) API",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weather,
+      source_code_link: "https://github.com/V2K4Y/WeatherAPI",
     },
     {
       name: "Data Analysis - (EDA)",

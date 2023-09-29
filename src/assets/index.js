@@ -27,6 +27,7 @@ import jobit from "./Live-chat.png";
 import tripguide from "./Final.png";
 import URLS from "./URL2.jpg";
 import portfolio from "./portfolio.jpg";
+import weather from "./weather.jpg";
 
 import linkedin from './linkedin.svg';
 import email from './email.svg';
@@ -55,6 +56,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  weather,
   URLS,
   portfolio,
   vidyamantra,
