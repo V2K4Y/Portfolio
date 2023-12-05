@@ -32,6 +32,7 @@ import weather from "./weather.jpg";
 import linkedin from './linkedin.svg';
 import email from './email.svg';
 import githubl from './github.svg';
+import twitterX from './twitterX.png';
 
 export {
   logo,
@@ -63,5 +64,6 @@ export {
   linkedin,
   email,
   githubl,
+  twitterX,
   express
 };

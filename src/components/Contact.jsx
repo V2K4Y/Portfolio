@@ -6,7 +6,7 @@ import { styles } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { linkedin, email, github } from "../assets";
+import { linkedin, email, github, twitterX } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -170,16 +170,19 @@ const Contact = () => {
 
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:h-[100px] md:h-[50px] sm:h-[20px] h-2 flex justify-center items-center xl:gap-15 md:gap-10 xs:gap-5"
+          className="xl:h-[100px] md:h-[50px] sm:h-[20px] h-2 flex justify-center items-center xl:gap-5 md:gap-5 xs:gap-2"
         >
           <a href="https://www.linkedin.com/in/vivek-kumar-yadav-a377281b6" className="pr-[15px] hover:animate-[tada_1s_ease-in-out]">
-            <img className="h-16"  src={linkedin} alt="LinkedIn" />
+            <img className="h-12"  src={linkedin} alt="LinkedIn" />
           </a>
           <a href="mailto:vivekkumar024y@gmail.com" className="pl-[15px] animate-[fade-in_1s_ease-in-out]">
-            <img className="h-16" src={email} alt="Email" />
+            <img className="h-10" src={email} alt="Email" />
           </a>
           <a href="https://www.github.com/V2K4Y" className="pl-[15px] animate-[fade-in_1s_ease-in-out]">
-            <img className="h-20" src={github} alt="Github" />
+            <img className="h-12" src={github} alt="Github" />
+          </a>
+          <a href="https://twitter.com/Vivek24Yadav" className="pl-[15px] animate-[fade-in_1s_ease-in-out]">
+            <img className="h-12" src={twitterX} alt="X-twitter)" />
           </a>
         </motion.div>
 
