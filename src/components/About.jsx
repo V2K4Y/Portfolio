@@ -43,11 +43,11 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-        I&apos;m a skilled software developer with experience in Javascript and expertise in technologies like React, Node.js, Express
-        and Three.js. I&apos;m a quick learner and create efficient, scalable, and user-friendly solutions that solve real-world problems.
-        Let&apos;s work together to bring your ideas to life
+        Welcome to my portfolio! I&apos;m Vivek Kumar, a self-taught Software Development Engineer specializing in building scalable and 
+        high-performance web applications. Proficient in React.js, Node.js, Express, and Next.js, I craft efficient, user-friendly 
+        solutions to real-world challenges. Let&apos;s collaborate to turn your ideas into reality!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

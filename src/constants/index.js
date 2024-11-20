@@ -4,9 +4,11 @@ import {
     css,        reactjs,     redux,
     tailwind,   nodejs,      mongodb,    
     git,        docker,      carrent,
-    jobit,      tripguide,  threejs,
-    vidyamantra,express,    URLS,
-    portfolio,  weather
+    jobit,      tripguide,  vidyamantra,
+    express,    URLS,       portfolio,
+    weather,    avataarskincare,
+    mysql,      nextjs,     nestjs,
+    paytm
   } from "../assets";
   
   export const navLinks = [
@@ -26,7 +28,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
@@ -38,7 +40,7 @@ import {
       icon: backend,
     },
     {
-      title: "MongoDB",
+      title: "SQL / NoSQL Databases",
       icon: creator,
     },
   ];
@@ -69,6 +71,10 @@ import {
       icon: tailwind,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -77,15 +83,19 @@ import {
       icon: express,
     },
     {
+      name: "Nest JS",
+      icon: nestjs,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MySQL",
+      icon: mysql,
     },
     {
-      name: "Git",
+      name: "Git & Github",
       icon: git,
     },
     {
@@ -95,6 +105,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Full Stack Developer",
+      company_name: "Avataar Skincare",
+      icon: avataarskincare,
+      iconBg: "#FFFFFF",
+      date: "Jul 2024 - Nov 2024",
+      points: [
+        "Contributed to Avataar Skincare’s digital ecosystem, developing front-end and back-end of the portals and dashboards to enhance user engagement and streamline internal operations.",
+        "Contributed and Optimized MySQL databases queries and API integrations using Node.js, Express.js, and Nest.js, boosting data processing speed by 20%.",
+        "Engineered a comprehensive dashboard system for real-time monitoring client and therapist activity monitoring, improving booking management efficiency for internal operations by 30% and enabling data driven decisions for faster customer service.",
+        " Successfully developed dynamic booking slot logic, enhancing session planning and boosting appointment efficiency by 25% based on therapist expertise, machine availability, and client preference management.",
+      ],
+    },
     {
       title: "Front-end Developer",
       company_name: "Vidyamantra",
@@ -141,18 +164,18 @@ import {
     {
       name: "Live-chat App",
       description:
-        "Web application that enables users to chat with other users in realtime environment.",
+        "Real-time web application enabling seamless user-to-user communication through an interactive chat platform.",
       tags: [
         {
-          name: "node, express",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi, mongodb",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "bootstrap",
+          name: "WebSocket",
           color: "pink-text-gradient",
         },
       ],
@@ -162,7 +185,7 @@ import {
     {
       name: "URL Shortener",
       description:
-        "It shorten the long URl by giving you shortID through which you can visit to your original site. Every user will have their own record.",
+        "Designed a URL shortening application that generates unique IDs for accessing original links, with individual user records for tracking.",
       tags: [
         {
           name: "NodesJS",
@@ -181,12 +204,33 @@ import {
       source_code_link: "https://github.com/V2K4Y/URL_Shortener",
     },
     {
+      name: "PayTM wallet service",
+      description:
+        "Application enables users to seamlessly transfer funds between wallets and add money to their wallet directly from their bank accounts.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: paytm,
+      source_code_link: "https://github.com/V2K4Y/Paytm-project",
+    },
+    {
       name: "Personal Portfolio",
       description:
         "Dynamic portfolio website incorporating interactive 3D models using Three.js for enhanced visual engagement.",
       tags: [
         {
-          name: "ReactJS",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
@@ -194,7 +238,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "ThreeJS",
+          name: "Three.js",
           color: "pink-text-gradient",
         },
       ],
@@ -202,25 +246,25 @@ import {
       source_code_link: "https://github.com/V2K4Y/Portfolio",
     },
     {
-      name: "E-commerce Website",
+      name: "Dukaan UI",
       description:
-        "Web-based platform that allows users to see products and buy it by adding it to cart and move to payment section.",
+        "Users can list products, manage inventory, accept payments, and track orders through the platform.",
       tags: [
         {
-          name: "react",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "TypeScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/V2K4Y/E-commerce-WebSite",
+      source_code_link: "https://github.com/V2K4Y/Dukaan_UI_Clone",
     },
     {
       name: "WeatherAPI",
@@ -243,27 +287,27 @@ import {
       image: weather,
       source_code_link: "https://github.com/V2K4Y/WeatherAPI",
     },
-    {
-      name: "Data Analysis - (EDA)",
-      description:
-        "Exploratory data analysis on clients data to provide most selling product categories which can help to plan inventory and hence meet the demands.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Pandas",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Seaborn",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/V2K4Y/PythonDataAnalysis",
-    },
+    // {
+    //   name: "Data Analysis - (EDA)",
+    //   description:
+    //     "Exploratory data analysis on clients data to provide most selling product categories which can help to plan inventory and hence meet the demands.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Pandas",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Seaborn",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/V2K4Y/PythonDataAnalysis",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

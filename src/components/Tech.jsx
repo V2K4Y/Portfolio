@@ -14,9 +14,12 @@ const Tech = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
-        HTML, CSS, JS building small and medium web applications with React, Node, Express and ThreeJS, custom plugins, features animations and coding interactive layouts. I have also full-stack developer experience
+        Proficient React.js, Next.js, Node.js, Express.js, NestJS, TypeScript and responsive design.
+        I thrive on solving complex challenges with clean, 
+        efficient code. My passion for continuous learning and problem-solving drives my dedication to creating impactful software 
+        solutions.
       </motion.p>
 
       <div className="flex flex-row flex-wrap justify-center pt-[60px] gap-10">
