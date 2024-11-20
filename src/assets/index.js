@@ -17,17 +17,21 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/ThreeJS.png";
 import express from "./tech/ExpressJS.png";
+import mysql from "./tech/mysql.png"
+import nextjs from "./tech/nextjs.png"
+import nestjs from "./tech/nestjs.png"
 
 import vidyamantra from "./company/vidyamantra.png"
+import avataarskincare from "./company/avataarskincare.png"
 
-import carrent from "./ecommerce.png";
+import carrent from "./dukaan.png";
 import jobit from "./Live-chat.png";
 import tripguide from "./Final.png";
 import URLS from "./URL2.jpg";
 import portfolio from "./portfolio.jpg";
 import weather from "./weather.jpg";
+import paytm from "./paytm.png"
 
 import linkedin from './linkedin.svg';
 import email from './email.svg';
@@ -53,14 +57,18 @@ export {
   reactjs,
   redux,
   tailwind,
-  threejs,
+  mysql,
+  nextjs,
+  nestjs,
   carrent,
   jobit,
   tripguide,
   weather,
   URLS,
   portfolio,
+  paytm,
   vidyamantra,
+  avataarskincare,
   linkedin,
   email,
   githubl,

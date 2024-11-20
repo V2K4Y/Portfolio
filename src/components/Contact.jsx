@@ -67,11 +67,11 @@ const Contact = () => {
 
   return (
     <div
-      className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`flex lg:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-1 bg-black-100 p-8 rounded-2xl'
+        className='flex-1 bg-black-100 p-8 rounded-2xl w-full lg:w-1/2'
       >
             <p className={styles.sectionSubText}>Get in touch</p>
             <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -160,7 +160,7 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <div className="flex flex-col flex-1">
+      <div className="flex flex-col flex-1 w-full lg:w-1/2">
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
           className='h-[450px] md:h[300px] sm:md-[100px]'
